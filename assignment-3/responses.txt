@@ -1,0 +1,8 @@
+1) Obvious advantage of using a text editor is the previewing function right off the bat. Otherwise, there's other small upsides such as maybe a gui for easy things (think "select to italicize" in whatever Office program you use. Libre fan myself) 
+or linting for errors. Ever forget a single asterisk and now the Entire document is italicized instead of just 1 word bolded? Been there.  
+
+2) Neither Absolute and Relative URLS are immune to being messed up from a file moved (say, you moved the image into an image folder or renamed it. Whoops, now every reference of it is an empty pointer. Hope you set alt text), but absolute urls can be
+much more... catasrophic maybe. Let's say you're grabbing a REAL nice image from the audobon society-- a lovely bird image. You figure, why not just copy image address and link it? Voila!  
+WRONG, you wretched little pupa. Hotlinking is a terrible practice, as you're not hosting the image at all. If they move it, change it, delete it, or forbid the website itself goes down, then `poof` it's gone!
+There's no particular advantage, one over the other, but personally I rather relative urls as they're much cleaner to write out. Absolute URLS are immune to anywhere you put the link itself (page.html will access the right image even if you move it into 
+a different folder) but just look. Long. And Eugh. 
