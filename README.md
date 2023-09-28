@@ -5,3 +5,4 @@ Hope I get to soak in some skills for graphic design-- I could definately use so
 Changelog (mostly an assignment log)
 - 9/5 Initial Repo, wrote the Readme too. Oh and that Assignment-1 Folder.
 - 9/15 Oh wow 10 days later and I do assignment 2 and 3. That took a while! Made sure everything new is very strict to the format guidelines too. I don't think I was doing anything wrong as I have a 100% sofar but better safe than sorry.
+- 9/28 MUCH longer this time for assignment 4, i gotta set myself a phone reminder to do these. Sorry, again.
