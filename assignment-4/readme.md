@@ -18,14 +18,14 @@ to code it in HTML's language.
 4) **What are the 4 elements your HTML pages need?**  
 The is the Doctype, which is invisible to the end user but marks the version of HTML the webpage displays to the browser. The root element, which contains all elements within an <html></html> flag. Useful if for some
 reason you want to contain your CSS in the same file but more likely that you'll have javascript content on the page contained within <script></script> flags. Finally, within the root element is your <head> and <body> elements.
-The header is useful for well, page headers. Display at the top of the screen, and it's easy to make a consistant header to be used as a navigation menu through just importing. Further, the body element contains
-information regarding, well, the page! Everything is in there for what's displayed as the meat of the page.
+The header is useful for well, page headers. It'll be the title of the tab, and you can occasionally do some dynamic displays with it. Further, the body element contains information regarding, well, the page! Everything is in
+there for what's displayed as the meat of the page.
 
-5) **What is the index.html page for? Where does it go?**  
+6) **What is the index.html page for? Where does it go?**  
 The index.html page is more often not an actual, accessed page. It's accessed in the sense that you open it in your browser, but typically it will reroute you to a designated url. Such as, site.com/ sends you to the index, which
 upon opening redirects you to site.com/home.
 
-6) **Review: What are some of the best naming practices?**  
+7) **Review: What are some of the best naming practices?**  
 Assuming you mean filenames, it's best to keep page names/html files short and consistant. Not only does this speed up human access to particular pages (e.g., if they're not using hyperlinks, /home versus '/LandingPage' has a clear
 choice), it can also make it easier to write overall navigation code even for a sidebar. Take a simple biography site for example. you've got your homepage, your biography, perhaps projects or prior experience, etc. That might be
 contained to /home, /bio, and /experience.
