@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="A little jscript this time!">
+    <meta name="author" content="WShear">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+        <div class="MainContent">
+            <h1> Have you seen This bird?  </h1>
+            
+            <button type="button" onclick="myFunction()">Candy-corn Background</button>
+
+                <script>
+                function myFunction()
+                {   
+                document.querySelector("body > div.MainContent").style.background = 'rgb(255,255,255)';
+                document.querySelector("body > div.MainContent").style.background = 'linear-gradient(90deg, rgba(255,255,255,1) 30%, rgba(252,176,69,1) 33%, rgba(252,176,69,1) 66%, rgba(250,252,69,1) 69%)';
+                
+                }
+                </script>
+                
+
+
+            <p>
+                Checklist for the American Robin:
+                <table>
+                    <tr>
+                        <th> <input type="checkbox"> </th>
+                        <th> Orange Belly </th>
+                    </tr>
+                    <tr>
+                        <th> <input type="checkbox"> </th>
+                        <th> Black Head </th>
+                    </tr>
+                    <tr>
+                        <th> <input type="checkbox"> </th>
+                        <th> White Eyes </th>
+                    </tr>
+                    <tr>
+                        <th> <input type="checkbox"> </th>
+                        <th> Yellow Beak </th>
+                    </tr>
+                    <tr>
+                        <th> <input type="checkbox"> </th>
+                        <th> Grey Wings </th>
+                    </tr>
+                    <tr>
+                        <th> <input type="checkbox"> </th>
+                        <th> Small </th>
+                    </tr>
+                </table>
+
+                <p> You've probably seen an American Robin! The only 'robin' native
+                    to the americas. Which, looks staggeringly different from the 
+                    European Robin!
+                </p>
+
+                <p>
+                    Feel free to use space and write a Haiku of this bird.
+                </p>
+
+                <p>
+                    <textarea name="haikuBox"> 
+                            The pumpkin doth fly
+                        Harbringer of winter come--
+                            But lo--! Earth will Spring!
+                    </textarea>
+                </p>
+            </p>
+        </div>
+    
+
+    <div class="BackgroundBird">
+        <img src="./robin.png"></img>
+    </div>
+</body>

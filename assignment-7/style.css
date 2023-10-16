@@ -1,0 +1,56 @@
+body {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 59%, rgba(110,106,134,0) 83%);
+    align-items: center;
+    
+    z-index: 2;
+    padding: 0%;
+}
+
+.MainContent {
+    color: Black;
+    background-color: white;
+    text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
+    width: 40%;
+    margin-top: 2%;
+    height: 50em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    margin-left: 20%;
+}
+
+.BackgroundBird {
+    background-position: right;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    z-index: -1;
+    background:black;
+}
+
+textarea {
+    width: 80%;
+    font-size: 1em;
+    margin-left: 10%;
+    margin-bottom: 2em;
+    height: 6em;
+}
+
+table {
+    border: 1px solid black;
+    
+}
+
+
+.BackgroundBird img{
+    height: 100%;
+    margin: 0;
+    mask-image: linear-gradient(90deg, rgba(0,0,0,0) 30%, rgba(0,0,0,1) 6%, rgba(0,0,0,1) 100%);
+   -webkit-mask-image: linear-gradient(90deg, rgba(0,0,0,0) 30%, rgba(0,0,0,1) 60%, rgba(0,0,0,1) 100%);
+}
