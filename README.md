@@ -8,3 +8,4 @@ Changelog (mostly an assignment log)
 - 9/28 MUCH longer this time for assignment 4, i gotta set myself a phone reminder to do these. Sorry, again.
 - 10/1 I stayed up until 6 am playing world of warcraft with a friend and I'm feeling the effects. I pumped out a silly assignment page in 40 minutes but I feel like an old decrepit man now instead of a youthful 19 year old
 - 10/8 silly chickadee page
+- 10/22 Another delay of 2 assignment uploads and then writing a changelog. Added a page for the American Robin for assign-7 and the Grey-Go-Away for assign-8
