@@ -1,6 +1,5 @@
 ### MART341-WebDesign
 # Weslee's Web Design Repo
-Hope I get to soak in some skills for graphic design-- I could definately use some growth there!
 
 Changelog (mostly an assignment log)
 - 9/5 Initial Repo, wrote the Readme too. Oh and that Assignment-1 Folder.
@@ -10,3 +9,4 @@ Changelog (mostly an assignment log)
 - 10/8 silly chickadee page
 - 10/22 Another delay of 2 assignment uploads and then writing a changelog. Added a page for the American Robin for assign-7 and the Grey-Go-Away for assign-8
 - 10/29 feeling the effects of my covid shot update. Ouch. Oh and assignment 9 is added with a basic how-to for quilting
+- 11/5 Oh! It was just 1 week since my shot. Anyhoo, assignment 10 is from me birdwatching last week while fevered
