@@ -10,3 +10,4 @@ Changelog (mostly an assignment log)
 - 10/22 Another delay of 2 assignment uploads and then writing a changelog. Added a page for the American Robin for assign-7 and the Grey-Go-Away for assign-8
 - 10/29 feeling the effects of my covid shot update. Ouch. Oh and assignment 9 is added with a basic how-to for quilting
 - 11/5 Oh! It was just 1 week since my shot. Anyhoo, assignment 10 is from me birdwatching last week while fevered
+- 11/12 Assignment 11! A slight notice that i'll be missing at the end of november for a convention, so i'll definately make my assignment... 13(?) about that.
