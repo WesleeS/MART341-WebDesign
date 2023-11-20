@@ -11,3 +11,4 @@ Changelog (mostly an assignment log)
 - 10/29 feeling the effects of my covid shot update. Ouch. Oh and assignment 9 is added with a basic how-to for quilting
 - 11/5 Oh! It was just 1 week since my shot. Anyhoo, assignment 10 is from me birdwatching last week while fevered
 - 11/12 Assignment 11! A slight notice that i'll be missing at the end of november for a convention, so i'll definately make my assignment... 13(?) about that.
+- 11/19 Turned in 12 today, and next weekend (rather than the one after) I'll be turning in the next assignment early in order to go on my trip with no worries about due dates. 
