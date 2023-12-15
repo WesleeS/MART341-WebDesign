@@ -13,3 +13,4 @@ Changelog (mostly an assignment log)
 - 11/12 Assignment 11! A slight notice that i'll be missing at the end of november for a convention, so i'll definately make my assignment... 13(?) about that.
 - 11/19 Turned in 12 today, and next weekend (rather than the one after) I'll be turning in the next assignment early in order to go on my trip with no worries about due dates. 
 - 11/28 Like I said, early 13 submission. Be back in a week! This one is a little hamfisted but it's ffffine enough.
+- 12/14 Done! Final submission of the semester, year, and all before my birthday just next week. Merry Christmas!

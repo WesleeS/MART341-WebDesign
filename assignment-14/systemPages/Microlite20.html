@@ -1,0 +1,257 @@
+<!doctype html>
+
+<html class="no-js" lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M20</title>
+    <link rel="stylesheet" href="../css/foundation.css">
+    <link rel="stylesheet" href="../css/app.css">
+</head>
+
+<body>
+    <nav class="top-bar" data-topbar role="navigation" data-options="is_hover: false" style="margin-bottom: 2em;">
+        <li class="toggle-topbar" style="list-style: none; padding-left: 2em;"><a href="../index.html"><span><strong>Home</strong></span></a></li>
+
+        <section class="top-bar-section">
+            <ul class="dropdown menu" data-dropdown-menu>
+                <li>
+                    <a href="#">D6 Systems</a>
+                    <ul class="menu">
+                      <li><a href="./PbtA.html">PbtA</a></li>
+                      <li><a href="./GURPS.html">GURPS4e</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">D20 Systems</a>
+                    <ul class="menu">
+                      <li><a href="./Microlite20.html">Microlite20</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Alternative Systems</a>
+                    <ul class="menu">
+                      <li><a href="./FATE.html">FATE</a></li>
+                      <li><a href="#"><s>Savage Worlds</s></a></li>
+                    </ul>
+                </li>
+              </ul>
+        </section>
+    </nav>
+
+
+
+    <div class="grid-container">
+    
+        <div class="grid-x grid-padding-x">
+            <div class="large-8 medium-8 cell" style="padding-top: 0em;">
+                <h1>Microlite20</h1>
+                <p>
+                A far contrast to GURPS (if you've been reading these in order of me writing them), Microlite20 is 
+                a great little system if you've ever wanted to play something, well, really light! I used Microlite20 to,
+                bear with me, host a system in an online game. Before I bothered to try playing over Discord or FoundryVTT,
+                I'd sometimes host community games on just normal 'ol videogames.
+                <br>
+                It's honestly light enough that this page is just gunna be real small, but the essence is you've got 
+                stats, skills, health, an armor class much like any other d20SRD content, and some 
+                breeds of attacks that do various die of damages.
+                <br>
+                <br>
+                Not loads to say, but it's light enough you can make a character sheet so small as to fit within the 
+                character limit for forum posts on old mmo websites.
+                <br>
+                And by simple, I mean. SIMPLE.
+                It's also entirely open source, and I can legally just copypaste it all here!
+                <br>
+                <br>
+                <a href="https://microlite20.org/microlite20-srd">Microlite20 SRD</a>
+                </p>
+                <p>
+                    <h3>Stats</h3>
+                    There are 3 stats : Strength (STR), Dexterity (DEX) and Mind (MIND).<br>
+                    Roll 4d6, drop lowest dice. Total remaining 3 dice and allocate to one of the stats. Repeat for remaining stats.<br><br>
+
+                    <code>Stat bonus = (STAT-10)/2, round down.</code> 
+
+                    <h3>Races</h3>
+                    <strong>Humans</strong> get +1 to all skill rolls<br>
+                    <strong>Elves</strong> get +2 MIND<br>
+                    <strong>Dwarves</strong> get +2 STR<br>
+                    <strong>Halflings</strong> get +2 DEX<br>
+
+                    <h3>Classes</h3>
+                    The classes are Fighter, Rogue, Mage, Cleric. Characters begin at Level 1.<br><br>
+                    <strong>Fighters</strong> wear any kind of armor and use shields. They have a +3 bonus to Physical and add +1 to all attack and damage rolls. This increases by +1 at 5th level and every five levels on.<br>
+                    <strong>Rogues</strong> can use light armor. They have a +3 bonus to Subterfuge. If they successfully Sneak (usually sub+DEX, but depends on situation) up on a foe they can add their Subterfuge skill rank to the damage of their first attack.<br>
+                    <strong>Magi</strong> wear no armor. They can cast arcane spells, and gain a +3 bonus to Knowledge.<br>
+                    <strong>Clerics</strong> can wear light or medium armor. They cast divine spells and gain +3 bonus to Communication. A Cleric can Turn Undead with a successful Magic Attack. DC is the current Hit Points of the Undead. If the DC is exceeded by 10 it is destroyed. This can be used (2 + Level + MIND Bonus) times per day.<br>
+
+                    <h3>Skills</h3>
+                    There are just 4 skills : Physical, Subterfuge, Knowledge and Communication. Roll higher than the given Difficulty Class to succeed.<br>
+                    <code>Skill rank = your level + any bonus due to your class or race.</code><br>
+                    <code>Skill roll = d20 + skill rank + whatever stat bonus is most applicable to the use + situation modifiers</code><br>
+
+                    For example, Climbing would use Physical + STR bonus. Dodging a falling rock is Physical + DEX bonus. Finding a trap is Subterfuge + MIND bonus. Disabling a trap is Subterfuge + DEX bonus.<br><br>
+
+                    Note that there are no "Saving throws" in this game; use Physical + STR or DEX bonus for Fortitude and Reflex saves. Saving against magic (Will save) is usually MIND bonus + your level.
+
+                    <h3>Magic</h3>
+                    Magi can cast any arcane spell, and Clerics any divine spell, with a spell level equal or below 1/2 their class level, rounded up. They have access to all arcane spells in the SRD spell list.<br><br>
+
+                    Casting a spell of any kind costs Hit Points. The cost is 1 + double the level of the spell being cast:<br>
+
+                    <div class="media-object stack-for-small">
+                        <div class="media-object-section" style="width: 100em">
+                            <table class="hover">
+                                <thead>
+                                  <tr>
+                                    <th width="100">Spell Level</th>
+                                    <th width="100">HP Cost</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td>0</td>
+                                    <td>1</td>
+                                  </tr>
+                                  <tr>
+                                    <td>1</td>
+                                    <td>3</td>
+                                  </tr>
+                                  <tr>
+                                    <td>2</td>
+                                    <td>5</td>
+                                  </tr>
+                                  <tr>
+                                    <td>3</td>
+                                    <td>7</td>
+                                  </tr>
+                                  <tr>
+                                    <td>4</td>
+                                    <td>9</td>
+                                  </tr>
+                                  <tr>
+                                    <td>5</td>
+                                    <td>11</td>
+                                  </tr>
+                                  <tr>
+                                    <td>6</td>
+                                    <td>13</td>
+                                  </tr>
+                                  <tr>
+                                    <td>7</td>
+                                    <td>15</td>
+                                  </tr>
+                                  <tr>
+                                    <td>8</td>
+                                    <td>17</td>
+                                  </tr>
+                                  <tr>
+                                    <td>9</td>
+                                    <td>19</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                        </div>
+                        <div class="media-object-section">
+                            <p>
+                                <br>
+                            This loss cannot be healed normally but is recovered after 8 hours rest. There is no need to memorize spells in advance.<br>
+
+                            Just because a character can cast any spell, doesn't mean that they should. Choose spells that suit the character. Select one "signature" spell per spell level from 1st upward that they prefer to use over any other. These spells are easier to cast due to familiarity, costing 1 less HP to use.<br><br>
+
+                            The Difficulty Class (DC) for all spells is:<br> <code>10 + Caster Level + Caster's MIND bonus</code><br>
+                        </p>
+                        </div>
+                    </div>
+
+                    
+
+                    
+
+                    <h3>Combat</h3>
+                    <code>Hit Points = STR Stat + 1d6/Level.</code> If HP reach 0, unconscious and near death. Further damage directly reduces STR. If that reaches 0, death.<br><br>
+
+                    Roll <code>d20 + DEX bonus for initiative order.</code> Everyone can do one thing each turn; move, attack, cast a spell, etc.<br><br>
+
+                    <code>Melee attack bonus = STR bonus + Level</code><br>
+
+                    <code>Missile attack bonus = DEX bonus + Level</code><br>
+
+                    <code>Magic attack bonus = MIND bonus + Level</code><br><br>
+
+                    Add attack bonus to d20 roll. If higher than your opponent's Armor Class (AC), it's a hit. Natural 20 is automatically a critical doing maximum damage.<br><br>
+
+                    Fighters and Rogues can use DEX bonus + Level as Melee attack bonus instead if wielding a light weapon. Fighters and Rogues can wield 2 light weapons and attack with both in a round if they take a -2 penalty on all attack rolls that round. Rapiers count as light weapons, but you cannot wield two rapiers at the same time.<br>
+
+                    If the total bonus is +6 or more a second attack can be made with a -5 penalty. If the total bonus is +11 or more a third attack can be made at -10. For example, if the total bonus is +12, three attacks can be made at +12/+7/+2.<br>
+
+                    Add STR bonus to Melee damage, x2 for 2-handed weapons.<br><br>
+
+                    <code>Armor Class (AC) = 10 + DEX bonus + Armor bonus.</code><br>
+
+                    <h3>Other Hazards</h3>
+                    <ul>Falling: 1d6 damage per 10', half damage on Phys + DEX save. DC=depth fallen in feet</ul>
+
+                    <ul>Spikes: add +1 point to falling damage per 10' fallen, max +10</ul>
+
+                    <ul>Poison: Phys + STR save to avoid or for half, depending on poison. Effect varies with poison type.</ul>
+
+                    <ul>Extreme Heat & Cold: If not wearing suitable protection, Phys + STR save once every 10 minutes (DC 15, +1 per previous check), taking 1d6 damage on each failed save.</ul>
+
+                    <h3>Level Advancement</h3>
+                    Encounter Level = Hit Dice of defeated monsters, or the given EL for the trap, situation, etc. Add +1 for each doubling of the number of foes. eg: 1 kobold = EL1. 2 kobolds = EL2. 4 kobolds = EL3, etc.<br>
+
+                    Add up the Encounter Levels (ELs) of every encounter you take part in. When the total = 10 x your current level, you've advanced to the next level. Reset the total to 0 after advancing.<br><br>
+
+                    Each level adds:<br>
+
+                    <ul>+1d6 to Hit Points</ul>
+                    <ul>+1 to all attack rolls</ul>
+                    <ul>+1 to all skills</ul>
+
+                    If the level divides by three (i.e. level 3,6,9,etc.) add 1 point to STR, DEX or MIND.<br>
+
+                    Fighters gain +1 to their attack and damage rolls at levels 5,10,15,etc.<br>
+
+                    Clerics and Magi gain access to new spell levels at levels 3,5,7,9,etc.<br>
+
+                    <strong>Example:</strong> The 1st level adventurers have just completed a dungeon adventure, and defeated 5 EL1 encounters, an EL2 trap and the EL3 leader. That's a total of EL10, so they all advance to level 2. They need to defeat another 20 Encounter Levels to reach Level 3.<br>
+                </p>
+
+            </div>
+    
+            <div class="large-4 medium-4 cell">
+
+                <div class="media-object stack-for-small">
+                    <div class="media-object-section">
+                        <div class="thumbnail">
+                        <img src= "https://www.enworld.org/dnd_news.png" width="100%">
+                        </div>
+                    </div>
+                    <div class="media-object-section">
+                        
+                    </div>
+                </div>
+              
+                <p>
+                    Microlite20 isn't really an independantly owned thing, though you can find tons of the history of Microlite on <a href="https://www.enworld.org/threads/microlite20-the-smallest-thing-in-gaming.177624/">this forum page</a>
+                    from the development!<br>
+                    You can even find systems built from the Microlite20 Core over on <a href="https://ruleslightrpgs.com/community/">this forum too.</a>
+                </p>
+              
+            </div>
+          </div>
+        </div>
+
+    </div>
+
+
+    <script src="../js/vendor/jquery.js"></script>
+    <script src="../js/vendor/what-input.js"></script>
+    <script src="../js/vendor/foundation.js"></script>
+    <script src="../js/app.js"></script>
+</body>
+
+</html>

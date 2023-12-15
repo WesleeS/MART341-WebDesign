@@ -1,0 +1,111 @@
+<!doctype html>
+
+<html class="no-js" lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 14</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <nav class="top-bar" data-topbar role="navigation" data-options="is_hover: false" style="margin-bottom: 2em;">
+        <li class="toggle-topbar" style="list-style: none; padding-left: 2em;"><a href="./index.html"><span><strong>Home</strong></span></a></li>
+
+        <section class="top-bar-section">
+            <ul class="dropdown menu" data-dropdown-menu>
+                <li>
+                    <a href="#">D6 Systems</a>
+                    <ul class="menu">
+                      <li><a href="./systemPages/PbtA.html">PbtA</a></li>
+                      <li><a href="./systemPages/GURPS.html">GURPS4e</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">D20 Systems</a>
+                    <ul class="menu">
+                      <li><a href="./systemPages/Microlite20.html">Microlite20</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Alternative Systems</a>
+                    <ul class="menu">
+                      <li><a href="./systemPages/FATE.html">FATE</a></li>
+                      <li><a href="#"><s>Savage Worlds</s></a></li>
+                    </ul>
+                </li>
+              </ul>
+        </section>
+    </nav>
+
+    <div class="grid-container">
+    
+    <div class="callout alert" data-closable style="width: 50em">
+        <h5><strong>NOTICE</strong>, A WEBDEV LINK IS DEPRECATED</h5>
+        <p> minor thing, but <a href="https://montana-media-arts.github.io/webDesignFall2023/topic-13/html5-intro/">the link for the html5 cheatsheet is defunct</a>.
+            Consider <a href="https://simon.html5.org/dump/html5-canvas-cheat-sheet.html">this one?</a>
+            I'm not fully sure what was on the old one, and thus lost.
+        </p>
+
+        <button class="close-button" aria-label="Dismiss alert" type="button" data-close>
+        <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+
+
+    <p>
+        Alright onto the actual pages, my framework of choice was Foundation as I've already used bootstrap in the past,
+        and wanted to experiment with something newer to me.
+        As for the other requirements-- the HTML5 canvas and the javascript felt a little open ended so I had some fun with it
+        as I assumed anything counted.
+        <br>
+        <br>
+        I've slowly hit the burnout stage of finals now-- or moreso the desire to relax? And I'm doing this the thursday of finals 
+        week so I'm <i>nearly</i> through about. My first "big" assignment was the quilt multipage one, and I figured I'd do 
+        something new but still write about a passion. Thus, I thought it topical to write about system frameworks! I'm writing this 
+        day-of, so don't expect total play guides of these frameworks, but moreso me pulling from memory of how to fill these out.
+        I still want to make it nice 'n complete though!<br>
+        <br>
+        I do want to give some honorable mentions to the frameworks of Savage Worlds and various dicepool systems, I literaly just 
+        ran out of time to do em. Obviously this isn't at all comprehensive, but just a little fun gimmick for my multi-page site.
+
+        <br>
+        <br>
+        (oh p.s., I didn't know if the fade-away content counted, as the jscript comes packaged with Foundation, so here's a 
+        little widget for the prereq)
+
+        <canvas id="spinCanvas" width="200" height="200"></canvas>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const canvasRot = document.getElementById("spinCanvas");
+                const ctxRot = canvasRot.getContext("2d");
+                let currentAngle = 0;
+    
+                const rotationInterval = setInterval(function() {
+                    ctxRot.clearRect(0, 0, canvasRot.width, canvasRot.height);
+
+                    ctxRot.save();
+                    ctxRot.translate(canvasRot.width / 2, canvasRot.height / 2);
+                    ctxRot.rotate((currentAngle/360));
+                    ctxRot.fillStyle = "red";
+                    ctxRot.fillRect(-50, -50, 100, 100);
+                    ctxRot.restore();
+
+                    currentAngle += 1;
+                }, 10);
+            });
+        </script>
+    </p>
+
+    </div>
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
